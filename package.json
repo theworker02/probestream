@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/probestream",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe config/stream key checks for twelve-factor services.",
+  "bin": {
+    "probestream": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/probestream.git"
+  },
+  "homepage": "https://theworker02.github.io/probestream/",
+  "keywords": [
+    "probe",
+    "stream",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
